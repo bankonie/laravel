@@ -1,7 +1,10 @@
 @extends('layouts.main_template')
-@section('title') หน้าหลัก @parent
+@section('title') 
+  หน้าหลัก 
+  @parent
 @endsection
 @section('content')
+    
 <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -10,8 +13,8 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item carousel-item-next carousel-item-start">
-        <img src="{{ asset('assets/img/1.png') }}" width="100%">
-        {{-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> --}}
+        
+        <img src="https://wallpapercave.com/wp/wp8302901.jpg">
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -22,9 +25,8 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('assets/img/2.png') }}" width="100%">
-        {{-- <img src="https://i0.wp.com/performancescience.ac.uk/wp-content/uploads/2018/08/CPS-Collage-1920x500-1.png?fit=1920%2C500&ssl=1"> --}}
-        {{-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> --}}
+        
+        <img src="https://interprofessional.global/wp-content/uploads/2018/11/AUNZ-header-1920x600.jpg">
 
         <div class="container">
           <div class="carousel-caption">
@@ -35,9 +37,8 @@
         </div>
       </div>
       <div class="carousel-item active carousel-item-start">
-        <img src="{{ asset('assets/img/3.png') }}" width="100%">
-        {{-- <img src="https://www.eddystone-broadcast.com/wp-content/uploads/2015/10/1920x500-install-banner1.jpg"> --}}
-        {{-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> --}}
+        
+        <img src="https://cdn2.unrealengine.com/egs-social-thelastcampfire-news-secondary-1920x600-845454226.jpg">
 
         <div class="container">
           <div class="carousel-caption text-end">

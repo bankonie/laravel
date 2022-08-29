@@ -1,15 +1,11 @@
 @extends('layouts.main_template')
-@section('title') ติดต่อเรา @parent
- @endsection
+@section('title')
+    ติดต่อเรา 
+    @parent 
+@endsection
 @section('content')
-<div class="container pt-5">
-<div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</div>
+    <div class="container pt-5">
+        <h1>ติดต่อเรา</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, exercitationem. Rerum aperiam debitis animi quisquam illum error labore at nam eum distinctio? Vel modi magnam eius eligendi incidunt consequuntur quibusdam?</p>
+    </div>
 @endsection

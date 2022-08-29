@@ -1,19 +1,11 @@
 @extends('layouts.main_template')
-@section('title') ลงชื่อเข้าใช้ @parent
-@endsection
+@section('title')
+    เข้าสู่ระบบ 
+    @parent 
+@endsection@endsection
 @section('content')
-<div class="container pt-5">
-<div class="mb-3 row">
-    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+    <div class="container pt-5">
+        <h1>เข้าสู่ระบบ</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, exercitationem. Rerum aperiam debitis animi quisquam illum error labore at nam eum distinctio? Vel modi magnam eius eligendi incidunt consequuntur quibusdam?</p>
     </div>
-  </div>
-  <div class="mb-3 row">
-    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword">
-    </div>
-  </div>
-</div>
 @endsection

@@ -1,13 +1,11 @@
 @extends('layouts.main_template')
-@section('title') บริการ @parent
-@endsection
+@section('title')
+    บริการของเรา 
+    @parent 
+@endsection@endsection
 @section('content')
-<div class="container pt-5">
-<h1>Example heading <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading <span class="badge bg-secondary">New</span></h3>
-<h4>Example heading <span class="badge bg-secondary">New</span></h4>
-<h5>Example heading <span class="badge bg-secondary">New</span></h5>
-<h6>Example heading <span class="badge bg-secondary">New</span></h6>
-</div>
+    <div class="container pt-5">
+        <h1>บริการ</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, exercitationem. Rerum aperiam debitis animi quisquam illum error labore at nam eum distinctio? Vel modi magnam eius eligendi incidunt consequuntur quibusdam?</p>
+    </div>
 @endsection

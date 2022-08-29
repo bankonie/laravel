@@ -48,7 +48,7 @@
       </div>
   
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2022 สำนักงาน กศน.จังหวัดสมุทรปราการ. สงวนลิขสิทธิ์.</p>
+        <p>© 2022 Company, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
           <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
@@ -57,4 +57,5 @@
       </div>
     </footer>
   </div>
-  <script src="{{asset ('assets/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+<script src="{{asset('assets/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
